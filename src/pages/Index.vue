@@ -44,6 +44,11 @@ export default {
         //         this.$store.commit('appconfig/setGlobalMessage', val)
         //     }
         // },
+        // use the global installed plugin
+        // ...this.$mapBind('appconfig', ['globalMessage', 'package_selected', 'package_options'])
+        // ..but this seems to not work.
+        //
+        // normal import used:
         ...mapBind('appconfig', ['globalMessage', 'package_selected', 'package_options'])
     }
     // computed: this.mapBind()
