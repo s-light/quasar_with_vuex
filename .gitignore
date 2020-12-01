@@ -1,8 +1,5 @@
 
 
-# allow build for preview on github pages
-dist/*
-!dist/spa
 
 # mac meta
 .DS_Store
@@ -10,7 +7,10 @@ dist/*
 
 # Quasar core related directories
 .quasar
-/dist
+
+# allow build for preview on github pages
+dist/*
+!dist/spa
 
 # Cordova related directories and files
 /src-cordova/node_modules
@@ -121,7 +121,6 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 
 # Gatsby files
 .cache/
