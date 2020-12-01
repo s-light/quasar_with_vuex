@@ -7,7 +7,7 @@ export default {
         // Plugin code goes here
         Vue.prototype.$mapBind = function (base, params) {
         // Vue.mapBind = function (base, params) {
-            console.log('mapBind called')
+            // console.log('mapBind called')
             // inspired by https://stackoverflow.com/a/48447361/574981
             function capitalizeFirstLetter (string) {
                 // https://stackoverflow.com/questions/1026069/how-do-i-make-the-first-letter-of-a-string-uppercase-in-javascript
@@ -16,10 +16,10 @@ export default {
 
             const map = mapState(base, params)
             const result = {}
-            console.log(map)
+            // console.log(map)
             for (const [key, value] of Object.entries(map)) {
-                console.log('key', key)
-                console.log('value', value)
+                // console.log('key', key)
+                // console.log('value', value)
                 result[key] = {
                     get: value
                 }
@@ -29,7 +29,7 @@ export default {
                     this.$store.commit(base + '/' + mutationName, val)
                 }
             }
-            console.log(result)
+            // console.log(result)
             return result
         }
     }

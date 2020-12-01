@@ -9,7 +9,7 @@
 
 <script>
 // import { mapState, mapMutations, mapActions } from 'vuex'
-import { mapBind } from '../store/utils.js'
+import { mapBind } from '../store/mapBind.js'
 
 export default {
     name: 'PageTest',

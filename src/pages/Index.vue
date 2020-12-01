@@ -4,7 +4,9 @@
         alt="Quasar logo"
         src="~assets/quasar-logo-full.svg"
         >
-        <p> <br> </p>
+        <p>
+            <br>
+        </p>
         <p>
             test_message: '{{ test_message }}'<br>
             globalMessage: '{{ globalMessage }}'<br>
@@ -16,7 +18,7 @@
 </template>
 
 <script>
-import { mapBind } from '../store/utils.js'
+import { mapBind } from '../store/mapBind.js'
 
 export default {
     name: 'PageIndex',
