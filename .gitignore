@@ -1,6 +1,12 @@
+
+
+# allow build for preview on github pages
+dist/*
+!dist/spa
+
+# mac meta
 .DS_Store
 .thumbs.db
-node_modules
 
 # Quasar core related directories
 .quasar
