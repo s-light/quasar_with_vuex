@@ -39,6 +39,6 @@ export const mapBind = function (base, params) {
 // export default {
 //     name: 'ComponentName',
 //     computed: {
-//         ...mapBinder('appconfig', ['globalMessage'])
+//         ...mapBinder('appconfig', ['globalMessage', 'someOtherThing'])
 //     },
 // }
