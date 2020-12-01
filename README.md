@@ -2,6 +2,8 @@
 A Quasar Framework app
 simple test: quasar with vuex
 
+[online preview](https://s-light.github.io/quasar_with_vuex/dist/spa/#/)
+
 
 ## Install the dependencies
 ```bash
